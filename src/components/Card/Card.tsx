@@ -1,20 +1,16 @@
 import Footer from "../Footer/Footer";
 import { Header } from "../Header/Header";
+import Button from "../Button/Button";
 import "./Card.css";
-import {
-  Center,
-  ChakraProvider,
-  Input,
-  Box,
-  Button,
-  Text,
-} from "@chakra-ui/react";
-interface ICard {}
-
+import { Center, ChakraProvider, Input, Box, Text } from "@chakra-ui/react";
+export const handleWelcomeClick = () => {
+  alert('Bem-vindo ao nosso aplicativo!');
+};
 export const Card = () => {
+  
   return (
     <>
-    <Header/>
+      <Header />
       <ChakraProvider>
         <Box minHeight="60vh" backgroundColor="#1f182c" padding="25px">
           <section className="card__container">
@@ -56,14 +52,18 @@ export const Card = () => {
                   />
                 </form>
                 <Center>
-                  <button className="login__button">Entrar</button>
+                  <Button
+                    onClick={handleWelcomeClick}
+                    text="Entrar"
+                    className="login__button"
+                  ></Button>
                 </Center>
               </Box>
             </div>
           </section>
         </Box>
       </ChakraProvider>
-      <Footer/>
+      <Footer />
     </>
   );
 };
