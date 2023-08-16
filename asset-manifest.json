@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/desafio02-typescript/static/css/main.0de8b25d.css",
+    "main.js": "/desafio02-typescript/static/js/main.98ed9666.js",
+    "static/js/787.624cf4fb.chunk.js": "/desafio02-typescript/static/js/787.624cf4fb.chunk.js",
+    "static/media/logo.svg": "/desafio02-typescript/static/media/logo.175a1eeb50425aa6fda77a82d4530d65.svg",
+    "index.html": "/desafio02-typescript/index.html",
+    "main.0de8b25d.css.map": "/desafio02-typescript/static/css/main.0de8b25d.css.map",
+    "main.98ed9666.js.map": "/desafio02-typescript/static/js/main.98ed9666.js.map",
+    "787.624cf4fb.chunk.js.map": "/desafio02-typescript/static/js/787.624cf4fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0de8b25d.css",
+    "static/js/main.98ed9666.js"
+  ]
+}
