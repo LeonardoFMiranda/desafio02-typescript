@@ -3,6 +3,10 @@ desenvolvido por [Leonardo Miranda](https://github.com/LeonardoFMiranda)
 
 #### Projeto desenvolvido com React
 
+### Visualizar
+
+[Clique Aqui](https://leonardofmiranda.github.io/desafio02-typescript/)
+
 ### Tecnologias
 - Typescript
 
